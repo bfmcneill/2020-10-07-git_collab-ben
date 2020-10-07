@@ -19,3 +19,6 @@ when you clone it you only get the origin, any additional remotes are only maint
 ## is it dangerous to pull from remote if you have work you have not pushed on a commit that is behind the origin
 
 - if git thinks you will lose work it will warn you
+
+
+## you can update pull requests if you need to

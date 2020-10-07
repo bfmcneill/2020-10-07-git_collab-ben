@@ -51,3 +51,7 @@ Git collaboration class with Daniel Chen @chendaniely
 - in general, update your branches from main(e.g `git checkout main`; `git pull origin main`)
 - go to conflicting branch: `git checkout <BRANCH>
 - `git rebase main`: will rebase <BRANCH> against `main`
+
+## Colaboration using branching model
+
+- add person as collaborator
