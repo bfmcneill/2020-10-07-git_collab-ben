@@ -15,3 +15,7 @@ when you clone it you only get the origin, any additional remotes are only maint
 ## what tips do you have for a good commit message?
 
 - what are you adding into the staging area.  the things you are adding really only represent one process...one task you are trying gto update... for example update data pipeline.  What is the incremental think you are working on
+
+## is it dangerous to pull from remote if you have work you have not pushed on a commit that is behind the origin
+
+- if git thinks you will lose work it will warn you

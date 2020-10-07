@@ -20,18 +20,20 @@ Git collaboration class with Daniel Chen @chendaniely
 
 ### how to make a branch
 
-- `git branch <branch name>`
+- `git branch <branch name>` create the branch
+- `git checkout -b <branch name>` create and check out the branch in one step
 - wherever head is, the new branch will be created right there
   - head is the point in your git history you are looking.  most commonly it is the most recent change but really it is just a  reference location where you are
 
 ### how to move between branches
 
-- `git checkout <branch name>`
+- `git checkout <branch name>` switch to the branch you specified
 - `git status` show files and current branch
 
 ### how to send between local and origin
 
 - `git push origin <branch name>`
+- bfmcneill@githubuser.noreply.com
 
 
 ### delete local branch
@@ -46,3 +48,4 @@ Git collaboration class with Daniel Chen @chendaniely
 `git fetch --prune` delete any local commit tree and updating the local tree according to the remote
 
 - fetching is updating log history, not actually impacting files
+
