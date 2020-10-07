@@ -23,6 +23,11 @@ Git collaboration class with Daniel Chen @chendaniely
 - wherever head is, the new branch will be created right there
   - head is the point in your git history you are looking.  most commonly it is the most recent change but really it is just a  reference location where you are
 
-### how to move branches
+### how to move between branches
 
 - `git checkout <branch name>`
+- `git status` show files and current branch
+
+### how to send between local and origin
+
+- `git push origin <branch name>`
