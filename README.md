@@ -4,6 +4,7 @@ Git collaboration class with Daniel Chen @chendaniely
 
 - [install git](https://carpentries.github.io/workshop-template/#git)
 - [git cheatsheet](http://swcarpentry.github.io/git-novice/reference)
+- [git workflow](https://chendaniely.github.io/training_ds_r/help-faq.html)
 
 - `git clone <URL>` downloads the repo from the URL to your computer.  
   - Make sure you are not already in a git repo when you clone
@@ -31,3 +32,17 @@ Git collaboration class with Daniel Chen @chendaniely
 ### how to send between local and origin
 
 - `git push origin <branch name>`
+
+
+### delete local branch
+
+`git branch -d my_branch`
+
+### list remotes
+
+`git remote -v` list the remotes
+
+
+`git fetch --prune` delete any local commit tree and updating the local tree according to the remote
+
+- fetching is updating log history, not actually impacting files
