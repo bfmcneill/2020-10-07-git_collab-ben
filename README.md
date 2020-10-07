@@ -35,17 +35,19 @@ Git collaboration class with Daniel Chen @chendaniely
 - `git push origin <branch name>`
 - bfmcneill@githubuser.noreply.com
 
-
-### delete local branch
-
-`git branch -d my_branch`
-
 ### list remotes
 
 `git remote -v` list the remotes
 
+## Pull requests (online merge aka merge request)
 
-`git fetch --prune` delete any local commit tree and updating the local tree according to the remote
+- `git log --oneline --graph --all` shows you your git history tree
+- `git fetch --prune` delete local references to deleted remote branches
+- `git fetch` update local references with remote
+- `git branch -d my_branch` delete local branch
 
-- fetching is updating log history, not actually impacting files
+## Conflicts
 
+- in general, update your branches from main(e.g `git checkout main`; `git pull origin main`)
+- go to conflicting branch: `git checkout <BRANCH>
+- `git rebase main`: will rebase <BRANCH> against `main`
